@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    color: rgb(243, 227, 81);
+    background-color: rgb(62, 235, 28);
+    font-family: cursive;
+}
+img {
+   
+    width: 320px;
+    margin: 2px;
+}
+img:hover {
+    transform: scale(2.0);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img1 {
+    order:3;
+}
+.img3 {
+    order:-1;
+}
+.img2 {
+    order:1;
+}
+.img4 {
+    order:2;
+}
+.img9{
+    order:3;
+}
+.img11{
+    order:1;
+}
+.img12{
+    order:2;
+}
+.img10{
+    order:0;
+}
+.imga {
+    order:3;
+}
+.imgb {
+    order:4;
+}
+.imgc {
+    order:1;
+}
+.imgd {
+    order:2;
+}
